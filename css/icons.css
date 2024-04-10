@@ -1,0 +1,95 @@
+.icon {
+    display: inline-block;
+    height: 1em;
+    width: 1em;
+  }
+  
+  .icon--rounded {
+    border: 1px solid black;
+    border-radius: 50%;
+    position: relative;
+    top: 1px;
+    text-align: center;
+  }
+  
+  .icon::before {
+    display: inline-block;
+    height: 1em;
+    width: 1em;
+  
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  
+  .icon--rounded::before {
+    font-size: 0.66em;
+    display: inline-block;
+    position: relative;
+    top: -0.15em;
+  }
+  
+  .icon::before {
+    content: "";
+  }
+  
+  .icon--arrow-down-double::before {
+    background-image: url("../img/icons/icons-normal-arrow-down-double.svg");
+  }
+  
+  .icon--arrow-down::before {
+    background-image: url("../img/icons/icons-normal-arrow-down.svg");
+  }
+  
+  .icon--arrow-right::before {
+    background-image: url("../img/icons/icons-normal-arrow-right.svg");
+  }
+  
+  .icon--arrow-up-double::before {
+    background-image: url("../img/icons/icons-normal-arrow-up-double.svg");
+  }
+  
+  .icon--coding::before {
+    background-image: url("../img/icons/icons-normal-coding.svg");
+  }
+  
+  .icon--contact::before {
+    background-image: url("../img/icons/icons-normal-contact.svg");
+  }
+  
+  .icon--design::before {
+    background-image: url("../img/icons/icons-normal-design.svg");
+  }
+  
+  .icon--facebook::before {
+    background-image: url("../img/icons/icons-normal-facebook.svg");
+  }
+  
+  .icon--heart::before {
+    background-image: url("../img/icons/icons-normal-heart.svg");
+  }
+  
+  .icon--left::before {
+    background-image: url("../img/icons/icons-normal-left.svg");
+  }
+  
+  .icon--maps::before {
+    background-image: url("../img/icons/icons-normal-maps.svg");
+  }
+  
+  .icon--maps2::before {
+    background-image: url("../img/icons/icons-normal-maps2.svg");
+  }
+  
+  .icon--phone::before {
+    background-image: url("../img/icons/icons-normal-phone.svg");
+  }
+  
+  .icon--share::before {
+    background-image: url("../img/icons/icons-normal-share.svg");
+  }
+  
+  .icon--stats::before {
+    background-image: url("../img/icons/wordpress.svg");
+  }
+  

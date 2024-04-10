@@ -1,28 +1,242 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <title>Malouzi Portfolio</title>
 
-    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Dosis:300,400,700,800" rel="stylesheet" />
 
-</head>
-<body>
+    <link href="./css/icons.css" rel="stylesheet" type="text/css" />
+    <link href="./css/style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
     <nav class="page-navigation">
-        <div class="container">
-            <img class="logo" src="./images/logo.png" alt="Logo">
+      <div class="container page-navigation__container">
+        <img class="page-navigation__logo" src="./img/logo.png" alt="Malouzi" />
 
-            <ul>
-                <li>
-                    <a href="">Kontakt</a>
-                </li>
-            </ul>
+        <div class="page-navigation__menus-container">
+          <ul class="page-navigation__menu-list">
+            <li>
+              <a href="#mich" class="page-navigation__menu-item">Meine Person</a>
+            </li>
+            <li>
+              <a href="#dienstleistungen" class="page-navigation__menu-item">Dienstleistungen</a>
+            </li>
+            <li>
+              <a href="#portfolio" class="page-navigation__menu-item">Portfolio</a>
+            </li>
+            <!-- <li> 
+                <a href="#kundenstimmen" class="page-navigation__menu-item">Kundenstimmen</a>
+            </li>
+        -->
+          </ul>
+
+          <ul class="page-navigation__buttons-list">
+            <li>
+              <a href="#kontakt" class="page-navigation__button page-navigation__button--text">Kontakt</a>
+            </li>
+            <li>
+              <a href="#" class="page-navigation__button page-navigation__button--icon">
+                <i class="icon icon--maps" aria-hidden="true"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="page-navigation__button page-navigation__button--icon">
+                <i class="icon icon--phone" aria-hidden="true"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#kontakt" class="page-navigation__button page-navigation__button--icon">
+                <i class="icon icon--contact" aria-hidden="true"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    
+    <header class="header">
+      <div class="container">
+        <img src="./img/photo-1.png" class="header__image" />
+        <h1 class="header__me">Hallo!<br />Ich bin Marie-Louise Zirzlaff.</h1>
+        <h2 class="header__degree">Webdesignerin</h2>
+
+        <div class="header__buttons">
+          <a class="header__button button button--primary" href="#portfolio">Zum Portfolio</a>
+          <a class="header__button button button--secondary" href="#kontakt">Kontakt</a>
+        </div>
+      </div>
+    </header>
+
+    <!-- Über uns -->
+    <section>
+      <div class="container">
+        <div class="title-container">
+          <h2 id="mich" class="title-container__heading">Über mich</h2>
+          <p class="title-container__subtext">
+            Webdesign mit <i class="icon icon--heart icon--rounded"></i> und Code
+          </p>
+        </div>
+      </div>
+
+      <div class="text-boxes">
+        <div class="container text-boxes__container">
+          <div class="text-boxes__about-me">
+            <h3 class="text-boxes__heading">
+              Webdesignerin<br />
+              &amp; <br />
+              MERN-Def
+            </h3>
+    
+            <p class="text-boxes__paragraph">
+                  Willkommen auf meiner Portfolioseite. Ich bin eine leidenschftliche Webdesignerin und MERN-Entwicklerin mit einem Auge für Ästhetik und einer Affinität für fortschrittliche Technologie.
+                <br><br>
+              Seit eniger zeit arbeite ich daran, digitale Welten zu schaffen, die nicht nur funktional sind, sondern auch die Sinne ansprechen und Marken zum Leben erwecken. Meine Expertise umfasst das gesamte Spektrum des Webdesigns, von seiner Kozeption und Gestalltung bis hin zur Implementierung und Optimierung. <br><br>
+              Als MERN-Entwicklerin bin ich spezialisiert auf die Entwicklung von dynamischen und skalierbaren Webanwendungen unter Verwendung modernster Technologien wie MngoDB, Express.js, React und Node.js. Ich liebe es, innovative Löungen zu entwickeln, die die Benutzererfahrung verbessert und gleichzeitig die Anforderung meiner Kunden erfüllt.
+            </p>
+          </div>
+          <div class="text-boxes__quote-container">
+            <blockquote class="text-boxes__quote">
+              Wo deine Visionen Formen annehmen &amp; das Web zum Leben erweckt wird.
+            </blockquote>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Das mache ich -->
+    <section>
+      <div class="container">
+        <div class="title-container">
+          <h2 id="dienstleistungen" class="title-container__heading">Das mache ich</h2>
+          <p class="title-container__subtext">
+            Kreative Dienstleistungen
+          </p>
         </div>
 
-    </nav>
+        <div class="services">
+          <div class="services__column">
+            <i class="icon icon--design icon--rounded services__icon"></i>
+            <h6 class="services__label">Webdesign</h6>
+          </div>
+          <div class="services__column">
+            <i class="icon icon--coding icon--rounded services__icon"></i>
+            <h6 class="services__label">Webentwicklung</h6>
+          </div>
+          <div class="services__column"> 
+              <i class="icon icon--stats icon--rounded services__icon"></i>
+              <h6 class="services__label">Wordpress</h6>
+            </div>
+            <div class="services__column">
+                <i class="icon icon--share icon--rounded services__icon"></i>
+                <h6 class="services__label">Social Media</h6>
+            </div> 
+        </div>
 
-    
-</body>
+      </div>
+    </section>
+
+    <!-- Referenzen -->
+    <section>
+      <div class="container">
+        <div class="title-container">
+          <h2 id="portfolio" class="title-container__heading">Referenzen</h2>
+          <p class="title-container__subtext">
+            Meine Projektbeispiele
+          </p>
+        </div>
+      </div>
+
+      <ul class="references-tabs">
+        <li><a class="references-tabs__button references-tabs__button--active" href="#">Alle</a></li>
+        <li><a class="references-tabs__button" href="#">Webdesign</a></li>
+        <li><a class="references-tabs__button" href="#">Webentwicklung</a></li>
+        <li><a class="references-tabs__button" href="#">Wordpresss</a></li> 
+        <!-- 
+        <li><a class="references-tabs__button" href="#">Print</a></li> -->
+      </ul>
+      
+      <div class="container">
+        <ul class="references-images">
+          <li class="references-images__column">
+            <img class="references-images__image" src="img/references/Foto-Gallery.png" alt="Referenz #1" />
+          </li>
+          <li class="references-images__column">
+            <img class="references-images__image" src="img/references/weihnachten.png" alt="Referenz #2" />
+          </li>
+          <li class="references-images__column">
+            <img class="references-images__image" src="img/references/steppberger.png" alt="Referenz #3" />
+          </li>
+          <li class="references-images__column">
+            <img class="references-images__image" src="img/references/tte.png" alt="Referenz #4" />
+          </li>
+          <li class="references-images__column">
+            <img class="references-images__image" src="img/references/hhb.png" alt="Referenz #5" />
+          </li>
+          <!-- <li class="references-images__column"> 
+              <img class="references-images__image" src="" alt="Referenz #6" />
+            </li>
+            <li class="references-images__column">
+                <img class="references-images__image" src="" alt="Referenz #7" />
+            </li>
+            <li class="references-images__column">
+                <img class="references-images__image" src="" alt="Referenz #8" />
+            </li>
+            <li class="references-images__column">
+                <img class="references-images__image" src="" alt="Referenz #9" />
+            </li>
+        -->
+        </ul>
+      </div>
+      
+    </section>
+
+    <!-- Kontakt -->
+    <section class="contact">
+        <div class="container">
+          <div class="title-container title-container--inverse">
+            <h2 id="kontakt" class="title-container__heading">Kontakt</h2>
+            <p class="title-container__subtext">
+              Unverbindlich Kontakt aufnehmen
+            </p>
+          </div>
+  
+          <form action="index.html" method="GET">
+            <div class="contact__info">
+              <div class="contact__field-group contact__field-column">
+                <label for="contact__name" class="contact__label">Ihr Name</label>
+                <input type="text" id="contact__name" name="name" class="contact__input" placeholder="Bitte geben Sie Ihren Namen ein!" />
+              </div>
+  
+              <div class="contact__field-group contact__field-column">
+                <label for="contact__email" class="contact__label">Ihre E-Mail-Adresse</label>
+                <input type="email" id="contact__email" name="email" class="contact__input" placeholder="Bitte geben Sie Ihre E-Mail-Adresse ein!" />
+              </div>
+  
+              <div class="contact__field-group contact__field-column">
+                <label for="contact__phone" class="contact__label">Ihre Telefonnummer</label>
+                <input type="text" id="contact__phone" name="phone" class="contact__input" placeholder="Bitte geben Sie Ihre Telefonnummer ein!" />
+              </div>
+            </div>
+  
+            <div class="contact__field-group">
+              <label for="contact__message" class="contact__label">Ihre Nachricht</label>
+              <textarea id="contact__message" name="message" class="contact__input contact__input--textarea" placeholder="Bitte geben Sie Ihre Nachricht ein!"></textarea>
+            </div>
+  
+            <div class="contact__info">
+              <div class="contact__field-group contact__field-column">
+                <input type="submit" value="Senden" class="contact__button button button--primary" />
+              </div>
+            </div>
+  
+            <p class="contact__disclaimer">Ich gebe Ihre Daten nicht an Dritte weiter. Ihre Daten werden ausschließlich zur Bearbeitung Ihrer Anfrage verwendet.</p>
+  
+          </form>
+        </div>
+      </section>
+  </body>
 </html>

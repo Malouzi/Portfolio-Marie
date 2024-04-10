@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 500 500" style="enable-background:new 0 0 500 500;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#000000;stroke-width:10;stroke-miterlimit:10;}
+	.st1{fill:#FFFFFF;}
+</style>
+<title>icons-round-Zeichenfläche 1</title>
+<g>
+	<circle class="st0" cx="245.5" cy="250.5" r="215.5"/>
+	<g id="Monitor">
+		<path d="M369.2,143h-245c-11,0-20,9-20,20v184c0,11,9,20,20,20h245c11.1,0,20-9,20-20V163C389.2,152,380.2,143,369.2,143z
+			 M246.7,355c-5,0-9-4-9-9s4-9,9-9c5,0,9,4,9,9S251.6,355,246.7,355z"/>
+		<rect x="115.2" y="157" class="st1" width="262" height="173"/>
+	</g>
+	<g id="Stift">
+		<path d="M225,313.7c0,0-37.3-6.2-32.8-16.4c0.3-0.6,0.6-1.3,1-1.9c0.5-0.1,1-0.3,1.4-0.5l9.3-4.4c0.3-0.2,0.6-0.3,0.9-0.6
+			c2.2-0.1,4.4,0.1,6.6,0.5c0,0,4,12.4,7.4,16.4S225,313.7,225,313.7z"/>
+		<path d="M206.8,286.9c-5.2,0.2-11.5,1.7-15.2,7.1c-3.8,0.8-7.7-1.1-9.4-4.6L133.4,187c-2-4.2-0.2-9.3,4-11.3l12.1-5.7
+			c4.2-2,9.3-0.2,11.3,4l48.8,102.3C211.4,280,210.2,284.5,206.8,286.9z"/>
+	</g>
+	<g id="Fenster">
+		<path d="M362,207v9H247v-9c0-6.6,5.4-12,12-12h91C356.6,195,362,200.4,362,207z"/>
+		<path d="M362,218v76c0,6.6-5.4,12-12,12h-91c-6.6,0-12-5.4-12-12v-76H362z"/>
+	</g>
+</g>
+</svg>
