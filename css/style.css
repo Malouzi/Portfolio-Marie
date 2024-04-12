@@ -356,12 +356,13 @@ html {
     box-sizing: border-box;
   }
 
-  .contact {
-    background-image: url("../img/contact-background.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding-bottom: 3.5rem;
-  }
+  /* .contact { 
+      background-image: url("../img/contact-background.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      padding-bottom: 3.5rem;
+    }
+    */
   
   .contact__label {
     color: white;
@@ -469,6 +470,11 @@ html {
   .contact-details__email-link:hover {
     text-decoration: underline;
   }
+
+  footer {
+    background-color: #f7f7f7;
+    padding-top: 0.5rem;
+  }
   
   .footer-logo {
     background-color: #f7f7f7;
@@ -543,7 +549,6 @@ html {
     
     }
   
-  }
   
   @media (min-width: 1050px) {
     .page-navigation__menu-list {
